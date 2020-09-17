@@ -8,7 +8,6 @@
       "type": "node",
       "request": "launch",
       "name": "Launch init script",
-      // "runtimeExecutable": "/Users/dmitrijkovalenko/.nvm/versions/node/v12.11.1/bin/node",
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
       "skipFiles": ["<node_internals>/**"],
       "cwd": "${workspaceRoot}",
